@@ -5,7 +5,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_tutorial_final/src/routes/routes.dart';
 
 // import 'color_palettes_screen/color_palettes_screen.dart';
-import 'component_screen/component_screen.dart';
+import 'components_screen/components_screen.dart';
 // import 'elevation_screen/elevation_screen.dart';
 // import 'typography_screen/typography_screen.dart';
 

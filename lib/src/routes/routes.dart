@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'package:flutter_tutorial_final/src/basics/basics_page.dart';
+import 'package:flutter_tutorial_final/src/basics_screen/basics_page.dart';
 
 // import 'package:app_tienda_virtual/src/pages/carrito_page.dart';
 // import 'package:app_tienda_virtual/src/pages/perfil_page.dart';
