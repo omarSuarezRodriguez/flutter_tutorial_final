@@ -43,7 +43,7 @@ const List<String> colorText = <String>[
 ];
 
 class _MyAppState extends State<MyApp> {
-  bool useMaterial3 = true;
+  bool useMaterial3 = false;
   bool useLightMode = true;
   int colorSelected = 0;
   int screenIndex = 0;
@@ -142,6 +142,26 @@ class _MyAppState extends State<MyApp> {
           shape:
               RoundedRectangleBorder(borderRadius: BorderRadius.circular(10)),
           itemBuilder: (context) => [
+
+
+            PopupMenuItem(
+              child: Wrap(
+                children: const [
+                  Padding(
+                    padding: EdgeInsets.only(left: 10),
+                    child: Icon(
+                      Icons.search,
+                      color: Colors.grey,
+                    ),
+                  ),
+                  Padding(
+                    padding: EdgeInsets.only(left: 20),
+                    child: Text("Search"),
+                  ),
+                ],
+              ),
+            ),
+
             PopupMenuItem(
               onTap: handleBrightnessChange,
               child: Wrap(
@@ -156,12 +176,13 @@ class _MyAppState extends State<MyApp> {
                   Padding(
                     padding: const EdgeInsets.only(left: 20),
                     child: useLightMode
-                        ? const Text("Tema Oscuro")
-                        : const Text("Tema Claro"),
+                        ? const Text("Dark theme")
+                        : const Text("Light theme"),
                   ),
                 ],
               ),
-            ),
+            ),       
+
             PopupMenuItem(
               onTap: handleMaterialVersionChange,
               child: Wrap(
@@ -169,19 +190,21 @@ class _MyAppState extends State<MyApp> {
                   Padding(
                     padding: const EdgeInsets.only(left: 10),
                     child: Icon(
-                      useMaterial3 ? Icons.filter_2 : Icons.filter_1,
+                      useMaterial3 ? Icons.filter_1 : Icons.filter_2,
                       color: Colors.grey,
                     ),
                   ),
                   Padding(
                     padding: const EdgeInsets.only(left: 20),
                     child: useMaterial3
-                        ? const Text("Skin 2")
-                        : const Text("Skin 1"),
+                        ? const Text("Skin 1")
+                        : const Text("Skin 2"),
                   ),
                 ],
               ),
             ),
+   
+
             PopupMenuItem(
               child: Wrap(
                 children: const [
@@ -194,11 +217,12 @@ class _MyAppState extends State<MyApp> {
                   ),
                   Padding(
                     padding: EdgeInsets.only(left: 20),
-                    child: Text("Descargar Código"),
+                    child: Text("Download code"),
                   ),
                 ],
               ),
             ),
+
           ],
         ),
       ],
@@ -212,7 +236,7 @@ class _MyAppState extends State<MyApp> {
       routes: getApplicationRoutes(),
 
       debugShowCheckedModeBanner: false,
-      title: 'Material 3',
+      title: 'Flutter Tutorial',
       themeMode: useLightMode ? ThemeMode.light : ThemeMode.dark,
       theme: themeData,
       home: LayoutBuilder(builder: (context, constraints) {

@@ -18,7 +18,7 @@ class BasicsPage extends StatelessWidget {
               Navigator.pushNamed(context, '/basics_01');
             },
             child: const ListTile(
-              title: Text('01. AnimatedContainer'),
+              title: Text('01. Animated Builder'),
               leading: Icon(
                 Icons.data_object_rounded,
                 color: Colors.lime,
@@ -30,70 +30,66 @@ class BasicsPage extends StatelessWidget {
           const SizedBox(height: 7),
           InkWell(
             onTap: () {
-              Navigator.pushNamed(context, '/basics_01');
+              Navigator.pushNamed(context, '/basics_02');
             },
             child: const ListTile(
-              title: Text('01. AnimatedContainer'),
+              title: Text('02. Page Route Builder'),
               leading: Icon(
                 Icons.data_object_rounded,
                 color: Colors.lime,
               ),
             ),
           ),
-
 
           const SizedBox(height: 7),
           InkWell(
             onTap: () {
-              Navigator.pushNamed(context, '/basics_01');
+              Navigator.pushNamed(context, '/basics_03');
             },
             child: const ListTile(
-              title: Text('01. AnimatedContainer'),
+              title: Text('03. Animation Controller'),
               leading: Icon(
                 Icons.data_object_rounded,
                 color: Colors.lime,
               ),
             ),
           ),
-
 
           const SizedBox(height: 7),
           InkWell(
             onTap: () {
-              Navigator.pushNamed(context, '/basics_01');
+              Navigator.pushNamed(context, '/basics_04');
             },
             child: const ListTile(
-              title: Text('01. AnimatedContainer'),
+              title: Text('04. Tweens'),
               leading: Icon(
                 Icons.data_object_rounded,
                 color: Colors.lime,
               ),
             ),
           ),
-
 
           const SizedBox(height: 7),
           InkWell(
             onTap: () {
-              Navigator.pushNamed(context, '/basics_01');
+              Navigator.pushNamed(context, '/basics_05');
             },
             child: const ListTile(
-              title: Text('01. AnimatedContainer'),
+              title: Text('05. Animated Container'),
               leading: Icon(
                 Icons.data_object_rounded,
                 color: Colors.lime,
               ),
             ),
           ),
-
 
           const SizedBox(height: 7),
           InkWell(
             onTap: () {
-              Navigator.pushNamed(context, '/basics_01');
+              Navigator.pushNamed(context, '/basics_06');
             },
             child: const ListTile(
-              title: Text('01. AnimatedContainer'),
+              title: Text('06. Custom Tween'),
               leading: Icon(
                 Icons.data_object_rounded,
                 color: Colors.lime,
@@ -102,169 +98,7 @@ class BasicsPage extends StatelessWidget {
           ),
 
 
-          const SizedBox(height: 7),
-          InkWell(
-            onTap: () {
-              Navigator.pushNamed(context, '/basics_01');
-            },
-            child: const ListTile(
-              title: Text('01. AnimatedContainer'),
-              leading: Icon(
-                Icons.data_object_rounded,
-                color: Colors.lime,
-              ),
-            ),
-          ),
 
-
-          const SizedBox(height: 7),
-          InkWell(
-            onTap: () {
-              Navigator.pushNamed(context, '/basics_01');
-            },
-            child: const ListTile(
-              title: Text('01. AnimatedContainer'),
-              leading: Icon(
-                Icons.data_object_rounded,
-                color: Colors.lime,
-              ),
-            ),
-          ),
-
-
-          const SizedBox(height: 7),
-          InkWell(
-            onTap: () {
-              Navigator.pushNamed(context, '/basics_01');
-            },
-            child: const ListTile(
-              title: Text('01. AnimatedContainer'),
-              leading: Icon(
-                Icons.data_object_rounded,
-                color: Colors.lime,
-              ),
-            ),
-          ),
-
-
-          const SizedBox(height: 7),
-          InkWell(
-            onTap: () {
-              Navigator.pushNamed(context, '/basics_01');
-            },
-            child: const ListTile(
-              title: Text('01. AnimatedContainer'),
-              leading: Icon(
-                Icons.data_object_rounded,
-                color: Colors.lime,
-              ),
-            ),
-          ),
-
-
-          const SizedBox(height: 7),
-          InkWell(
-            onTap: () {
-              Navigator.pushNamed(context, '/basics_01');
-            },
-            child: const ListTile(
-              title: Text('01. AnimatedContainer'),
-              leading: Icon(
-                Icons.data_object_rounded,
-                color: Colors.lime,
-              ),
-            ),
-          ),
-
-
-          const SizedBox(height: 7),
-          InkWell(
-            onTap: () {
-              Navigator.pushNamed(context, '/basics_01');
-            },
-            child: const ListTile(
-              title: Text('01. AnimatedContainer'),
-              leading: Icon(
-                Icons.data_object_rounded,
-                color: Colors.lime,
-              ),
-            ),
-          ),
-
-
-          const SizedBox(height: 7),
-          InkWell(
-            onTap: () {
-              Navigator.pushNamed(context, '/basics_01');
-            },
-            child: const ListTile(
-              title: Text('01. AnimatedContainer'),
-              leading: Icon(
-                Icons.data_object_rounded,
-                color: Colors.lime,
-              ),
-            ),
-          ),
-
-
-          const SizedBox(height: 7),
-          InkWell(
-            onTap: () {
-              Navigator.pushNamed(context, '/basics_01');
-            },
-            child: const ListTile(
-              title: Text('01. AnimatedContainer'),
-              leading: Icon(
-                Icons.data_object_rounded,
-                color: Colors.lime,
-              ),
-            ),
-          ),
-
-
-          const SizedBox(height: 7),
-          InkWell(
-            onTap: () {
-              Navigator.pushNamed(context, '/basics_01');
-            },
-            child: const ListTile(
-              title: Text('01. AnimatedContainer'),
-              leading: Icon(
-                Icons.data_object_rounded,
-                color: Colors.lime,
-              ),
-            ),
-          ),
-
-
-          const SizedBox(height: 7),
-          InkWell(
-            onTap: () {
-              Navigator.pushNamed(context, '/basics_01');
-            },
-            child: const ListTile(
-              title: Text('01. AnimatedContainer'),
-              leading: Icon(
-                Icons.data_object_rounded,
-                color: Colors.lime,
-              ),
-            ),
-          ),
-
-
-          const SizedBox(height: 7),
-          InkWell(
-            onTap: () {
-              Navigator.pushNamed(context, '/basics_01');
-            },
-            child: const ListTile(
-              title: Text('01. AnimatedContainer'),
-              leading: Icon(
-                Icons.data_object_rounded,
-                color: Colors.lime,
-              ),
-            ),
-          ),
 
 
         ],
