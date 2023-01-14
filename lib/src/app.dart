@@ -143,6 +143,24 @@ class _MyAppState extends State<MyApp> {
               RoundedRectangleBorder(borderRadius: BorderRadius.circular(10)),
           itemBuilder: (context) => [
 
+            PopupMenuItem(
+              child: Wrap(
+                children: const [
+                  Padding(
+                    padding: EdgeInsets.only(left: 10),
+                    child: Icon(
+                      Icons.favorite_outline_rounded,
+                      color: Colors.redAccent,
+                    ),
+                  ),
+                  Padding(
+                    padding: EdgeInsets.only(left: 20),
+                    child: Text("Favorites"),
+                  ),
+                ],
+              ),
+            ),
+
 
             PopupMenuItem(
               child: Wrap(
@@ -151,7 +169,7 @@ class _MyAppState extends State<MyApp> {
                     padding: EdgeInsets.only(left: 10),
                     child: Icon(
                       Icons.search,
-                      color: Colors.grey,
+                      color: Colors.blueAccent,
                     ),
                   ),
                   Padding(
@@ -191,7 +209,7 @@ class _MyAppState extends State<MyApp> {
                     padding: const EdgeInsets.only(left: 10),
                     child: Icon(
                       useMaterial3 ? Icons.filter_1 : Icons.filter_2,
-                      color: Colors.grey,
+                      color: Colors.green,
                     ),
                   ),
                   Padding(
@@ -204,6 +222,7 @@ class _MyAppState extends State<MyApp> {
               ),
             ),
    
+            
 
             PopupMenuItem(
               child: Wrap(
@@ -212,7 +231,7 @@ class _MyAppState extends State<MyApp> {
                     padding: EdgeInsets.only(left: 10),
                     child: Icon(
                       Icons.code,
-                      color: Colors.grey,
+                      color: Colors.deepPurple,
                     ),
                   ),
                   Padding(
