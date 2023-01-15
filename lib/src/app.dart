@@ -19,7 +19,7 @@ class MyApp extends StatefulWidget {
   State<MyApp> createState() => _MyAppState();
 }
 
-// NavigationRail shows if the screen width is greater or equal to
+// NavigationRail shows if the screen width is greater or equal to 
 // screenWidthThreshold; otherwise, NavigationBar is used for navigation.
 const double narrowScreenWidthThreshold = 450;
 
