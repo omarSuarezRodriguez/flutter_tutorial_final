@@ -2,7 +2,8 @@
 // found in the LICENSE file.
 
 import 'package:flutter/material.dart';
-import 'package:flutter_tutorial_final/src/basics_screen/basics_page.dart';
+import 'package:flutter_tutorial_final/src/basics_screen/basics_screen.dart';
+import 'package:flutter_tutorial_final/src/projects_screen/projects_screen.dart';
 import 'package:flutter_tutorial_final/src/routes/routes.dart';
 
 // import 'color_palettes_screen/color_palettes_screen.dart';
@@ -95,11 +96,11 @@ class _MyAppState extends State<MyApp> {
       case 0:
         return ComponentScreen(showNavBottomBar: showNavBarExample);
       case 1:
-        return BasicsPage(showNavBottomBar: showNavBarExample);
+        return BasicsScreen(showNavBottomBar: showNavBarExample);
       case 2:
       // return const TypographyScreen();
       case 3:
-      // return const ElevationScreen();
+      return  ProjectsScreen(showNavBottomBar: showNavBarExample);
       default:
         return ComponentScreen(showNavBottomBar: showNavBarExample);
     }

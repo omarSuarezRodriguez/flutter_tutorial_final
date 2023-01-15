@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'package:flutter_tutorial_final/src/basics_screen/basics_page.dart';
+import 'package:flutter_tutorial_final/src/basics_screen/basics_screen.dart';
 import 'package:flutter_tutorial_final/src/basics_screen/pages/01_animated_builder.dart';
 import 'package:flutter_tutorial_final/src/basics_screen/pages/02_page_route_builder.dart';
 import 'package:flutter_tutorial_final/src/basics_screen/pages/03_animation_controller.dart';
@@ -22,12 +22,16 @@ import 'package:flutter_tutorial_final/src/basics_screen/pages/18_physics_card_d
 import 'package:flutter_tutorial_final/src/basics_screen/pages/19_repeating_animation.dart';
 
 
+import 'package:flutter_tutorial_final/src/projects_screen/projects_screen.dart';
+import 'package:flutter_tutorial_final/src/projects_screen/01_platform_design/main.dart';
+
+
 
 Map<String, WidgetBuilder> getApplicationRoutes() {
 
   return <String, WidgetBuilder> {
 
-    '/basics'            : (BuildContext context) => const BasicsPage(showNavBottomBar: true), 
+    '/basics_screen'            : (BuildContext context) => const BasicsScreen(showNavBottomBar: true), 
     '/basics_01'         : (BuildContext context) => const AnimatedBuilderDemo(),
     '/basics_02'         : (BuildContext context) => const PageRouteBuilderDemo(),
     '/basics_03'         : (BuildContext context) => const AnimationControllerDemo(),
@@ -47,6 +51,10 @@ Map<String, WidgetBuilder> getApplicationRoutes() {
     '/basics_17'         : (BuildContext context) => const FocusImageDemo(),
     '/basics_18'         : (BuildContext context) => const PhysicsCardDragDemo(),
     '/basics_19'         : (BuildContext context) => const RepeatingAnimationDemo(),
+
+    '/projects_screen'         : (BuildContext context) => const ProjectsScreen(showNavBottomBar: true),
+    '/projects_01'         : (BuildContext context) => const MyAdaptingApp(),
+
 
 
   };

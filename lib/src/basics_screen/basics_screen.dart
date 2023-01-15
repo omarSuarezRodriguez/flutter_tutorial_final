@@ -3,8 +3,8 @@
 
 import 'package:flutter/material.dart';
 
-class BasicsPage extends StatelessWidget {
-  const BasicsPage({super.key, required bool showNavBottomBar});
+class BasicsScreen extends StatelessWidget {
+  const BasicsScreen({super.key, required bool showNavBottomBar});
 
   @override
   Widget build(BuildContext context) {
@@ -279,7 +279,19 @@ class BasicsPage extends StatelessWidget {
             ),
           ),
 
-
+          // const SizedBox(height: 7),
+          // InkWell(
+          //   onTap: () {
+          //     Navigator.pushNamed(context, '/basics_20');
+          //   },
+          //   child: const ListTile(
+          //     title: Text('20. Splash Screen'),
+          //     leading: Icon(
+          //       Icons.data_object_rounded,
+          //       color: Colors.lime,
+          //     ),
+          //   ),
+          // ),
 
 
 
