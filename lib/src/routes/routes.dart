@@ -20,11 +20,13 @@ import 'package:flutter_tutorial_final/src/basics_screen/pages/16_expand_card.da
 import 'package:flutter_tutorial_final/src/basics_screen/pages/17_focus_image.dart';
 import 'package:flutter_tutorial_final/src/basics_screen/pages/18_physics_card_drag.dart';
 import 'package:flutter_tutorial_final/src/basics_screen/pages/19_repeating_animation.dart';
+import 'package:flutter_tutorial_final/src/projects_screen/03_linting_tool/app.dart';
+import 'package:flutter_tutorial_final/src/projects_screen/04_isolate_app/main.dart';
 
 
 import 'package:flutter_tutorial_final/src/projects_screen/projects_screen.dart';
 import 'package:flutter_tutorial_final/src/projects_screen/01_platform_design/main.dart';
-
+import 'package:flutter_tutorial_final/src/projects_screen/02_infinite_list/main.dart';
 
 
 Map<String, WidgetBuilder> getApplicationRoutes() {
@@ -54,6 +56,11 @@ Map<String, WidgetBuilder> getApplicationRoutes() {
 
     '/projects_screen'         : (BuildContext context) => const ProjectsScreen(showNavBottomBar: true),
     '/projects_01'         : (BuildContext context) => const MyAdaptingApp(),
+    '/projects_02'         : (BuildContext context) => const InfiniteListApp(),
+    '/projects_03'         : (BuildContext context) => const LintingTool(),
+    '/projects_04'         : (BuildContext context) => const IsolateApp(),
+    
+    
 
 
 
