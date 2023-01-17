@@ -68,6 +68,20 @@ class ProjectsScreen extends StatelessWidget {
             ),
           ),
 
+          const SizedBox(height: 7),
+          InkWell(
+            onTap: () {
+              Navigator.pushNamed(context, '/projects_05');
+            },
+            child: const ListTile(
+              title: Text('5. Bookstore App'),
+              leading: Icon(
+                Icons.data_object_rounded,
+                color: Colors.lime,
+              ),
+            ),
+          ),
+
 
 
 
