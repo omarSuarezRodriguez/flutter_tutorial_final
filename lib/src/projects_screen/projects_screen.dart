@@ -82,6 +82,20 @@ class ProjectsScreen extends StatelessWidget {
             ),
           ),
 
+          const SizedBox(height: 7),
+          InkWell(
+            onTap: () {
+              Navigator.pushNamedAndRemoveUntil(context, '/projects_06', ModalRoute.withName('/'));
+            },
+            child: const ListTile(
+              title: Text('6. Hero App'),
+              leading: Icon(
+                Icons.data_object_rounded,
+                color: Colors.lime,
+              ),
+            ),
+          ),
+
 
 
 
